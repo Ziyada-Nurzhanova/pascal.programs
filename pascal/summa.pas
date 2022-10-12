@@ -1,11 +1,9 @@
 ﻿program Kraises;
-var x,y,sum,a:real;{this is variables;}
+var b, ender,shower:integer;{this is variable;}
 begin
-  x:=0;
-  y:=x*x*x;
-  sum:=x+y;
-  writeln(sum+1);{print}
-  readln(a);{input}
-  write(a+sum+1);{print}
-  
+  readln(b);
+  ender:= b div 10;
+  shower:= b mod 13;
+  writeln(ender);
+  write(shower);
 end.
