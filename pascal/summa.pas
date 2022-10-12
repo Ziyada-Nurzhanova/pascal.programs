@@ -1,6 +1,8 @@
 ﻿program Kraises;
-var x:real;
+var x,y,sum:real;
 begin
   x:=0;
-  writeln(x+1);
+  y:=x*x*x;
+  sum:=x+y;
+  writeln(sum+1);
 end.
