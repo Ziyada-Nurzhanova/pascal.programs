@@ -1,9 +1,8 @@
 ﻿program Kraises;
-var b, ender,shower:integer;{this is variable;}
+uses Crt;
+var x:integer;
 begin
-  readln(b);
-  ender:= b div 10;
-  shower:= b mod 13;
-  writeln(ender);
-  write(shower);
+  x:=1;
+  writeln(x);
+  readkey;{the program starting using the SHIFT+F9}
 end.
