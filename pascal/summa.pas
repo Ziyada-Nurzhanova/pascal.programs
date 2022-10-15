@@ -7,4 +7,5 @@ begin
   rectangle(200, 150, 400, 350);
   SetBrushColor(clRed);
   circle(300, 250, 40);
+  line(150, 240, 100, 300);
 end.
