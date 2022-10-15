@@ -8,4 +8,5 @@ begin
   SetBrushColor(clRed);
   circle(300, 250, 40);
   line(150, 240, 100, 300);
+  pie(50, 50, 10, 20, 20);
 end.
