@@ -1,8 +1,10 @@
 ﻿program Kraises;
-uses Crt;
-var x:integer;
+uses GraphABC;
 begin
-  x:=1;
-  writeln(x);
-  readkey;{the program starting using the SHIFT+F9}
+  SetWindowSize(640, 480);
+  SetPenColor(clBlack);
+  textOut(280, 100, 'Japan');
+  rectangle(200, 150, 400, 350);
+  SetBrushColor(clRed);
+  circle(300, 250, 40);
 end.
